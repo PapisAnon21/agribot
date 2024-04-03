@@ -1,0 +1,13 @@
+.main
+{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.terre
+{
+    width: 500px;
+    margin: 12px auto;
+    border: 1px solid black;
+}
