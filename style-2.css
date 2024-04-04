@@ -1,0 +1,46 @@
+
+
+
+
+
+/* le cercle */
+.element-1
+{
+    position: absolute ;
+    left: 100px;
+    top: 95px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    transform: rotateX(40deg);
+    
+}
+/* le rectangle */
+.element-2
+{
+    position: absolute;
+    left: 100px;
+    width: 80px;
+    height: 200px;
+    background-color: rgb(108, 114, 114);
+    transform: translateY(-30px);
+    border: none;
+  
+
+    
+   
+}
+
+.element-3
+{
+    position: absolute ;
+    left: 100px;
+    top: 288px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    transform: rotateX(0deg);
+    
+}

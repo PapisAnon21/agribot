@@ -1,3 +1,5 @@
+@import url("./style-2.css");
+
 .main
 {
     padding-top: 150px;
@@ -55,6 +57,10 @@
     height: 750px;
     
 }
+
+
+
+
 
 /* je met les animations en bas */
 
