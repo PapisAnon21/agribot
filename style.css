@@ -16,7 +16,7 @@
 .terre
 {
     
-    
+ padding-top: 200px;
     background-color: #8A6D45;
     width: 700px;
     height: 800px;
@@ -71,7 +71,7 @@
         transform: rotateX(70deg) translateZ(135px) translateX(10px);
     }
     to{
-        transform: rotateX(70deg) translateZ(136px) translateX(50px);
+        transform: rotateX(70deg) translateZ(136px) translateX(68px);
     }
 
 }

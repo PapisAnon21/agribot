@@ -6,24 +6,26 @@
 /* le cercle */
 .element-1
 {
+    display: none;
     position: absolute ;
     left: 100px;
     top: 95px;
     width: 80px;
     height: 50px;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(41, 7, 194);
     transform: rotateX(40deg);
     
 }
 /* le rectangle */
 .element-2
 {
+    display: none;
     position: absolute;
     left: 100px;
     width: 80px;
     height: 200px;
-    background-color: rgb(108, 114, 114);
+    background-color:rgb(48, 175, 224);
     transform: translateY(-30px);
     border: none;
   
@@ -34,13 +36,47 @@
 
 .element-3
 {
+    display: none;
     position: absolute ;
     left: 100px;
     top: 288px;
     width: 80px;
     height: 50px;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(41, 7, 194);
     transform: rotateX(0deg);
+    
+}
+
+.animation-reservoir-active
+{
+    display: block;
+    animation: animation-reservoir 5s ease-in-out forwards;
+}
+
+
+@keyframes animation-reservoir
+{
+    0% {
+        opacity: 0 ;
+    }
+    
+    10% {
+        opacity: 0.2 ;
+    }
+    20%{
+        opacity: 0.4;
+    }
+    
+    30%{
+        opacity: 0.6;
+    }
+    40%{
+        opacity: 0.8;
+    }
+    100%
+    {
+        opacity: 1;
+    }
     
 }
