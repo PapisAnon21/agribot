@@ -1,5 +1,5 @@
 @import url("./style-2.css");
-
+@import url("./style-3.css");
 .main
 {
     padding-top: 150px;
@@ -58,6 +58,12 @@
     
 }
 
+
+.les-buttons
+{
+    position: relative;
+    top: 150px;
+}
 
 
 

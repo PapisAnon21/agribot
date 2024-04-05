@@ -1,0 +1,65 @@
+
+
+.main-tuyau-1
+{
+    position: absolute;
+    display: none;
+    left: 120px;
+    top: 300px;
+    width: 20px;
+    height: 95px;
+    background-color: rgb(41, 7, 194);
+    transform: rotateX(0deg);
+}
+
+.main-tuyau-2
+{
+    position: absolute;
+    display: none;
+    top: 40px;
+    width: 20px;
+    height: 700px;
+    background-color: rgb(41, 7, 194);
+    transform: rotateZ(90deg) ;
+}
+
+.animation-tuyau-1-active
+{
+    display: block;
+    animation: animation-tuyau-1 2s ease-in  forwards;
+}
+
+.animation-tuyau-2-active
+{
+    display: block;
+    animation: animation-tuyau-2 3s  ease-in  forwards;
+}
+
+
+@keyframes animation-tuyau-1
+{
+    from
+    {
+      
+        height: 0px;
+    }
+    to
+    {
+    
+        height: 95px;
+    }
+}
+
+@keyframes animation-tuyau-2
+{
+    from
+    {
+        
+        transform: rotateZ(90deg) ;
+    }
+    to
+    {
+       
+       transform: rotateZ(90deg) translateY(-420px); 
+    }
+}
