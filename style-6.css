@@ -16,10 +16,16 @@
 }
 
 .dispositif {
+    display: none;
     position: absolute;
     top: 150px;
     width: 200px;
     transform: translateY(350px) translateZ(600px) rotateY(40deg) translateX(20px);
+}
+.dispositif-animation-active
+{
+    display: block;
+    animation : animation-dispositif 5s forwards;
 }
 
 @keyframes terre-dispositif-animation {
@@ -31,4 +37,35 @@
         transform: rotateX(70deg) translateZ(-120px) translateY(588px) translateX(64px);
     }
 
+}
+
+
+@keyframes animation-dispositif
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    10%
+    {
+        opacity: 0.2;
+    }
+
+    30%
+    {
+        opacity: 0.4;
+    }
+    40%
+    {
+        opacity: 0.6;
+    }
+    80%
+    {
+        opacity: 0.8;
+    }
+    100%
+    {
+        opacity: 1;
+    }
 }
