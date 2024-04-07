@@ -1,0 +1,34 @@
+.terre-dispositif {
+    display: none;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    background-color: #8A6D45;
+
+
+
+}
+
+.terre-dispositif-animation-active {
+    display: block;
+    animation: terre-dispositif-animation 3s ease-in forwards;
+
+}
+
+.dispositif {
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    transform: translateY(350px) translateZ(600px) rotateY(40deg) translateX(20px);
+}
+
+@keyframes terre-dispositif-animation {
+    from {
+        transform: rotateX(70deg) translateZ(-190px) translateY(588px) translateX(64px);
+    }
+
+    to {
+        transform: rotateX(70deg) translateZ(-120px) translateY(588px) translateX(64px);
+    }
+
+}

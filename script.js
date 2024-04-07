@@ -6,6 +6,7 @@ const main_tuyau_2 = document.querySelector(".main-tuyau-2")
 
 const tuyau_secondaire = document.querySelectorAll(".tuyau-secondaire")
 
+const terre_dispositif = document.querySelector(".terre-dispositif")
 
 
 
@@ -84,4 +85,10 @@ function display_all_ouverture()
 
 
     
+}
+
+
+function display_terre_dispositif()
+{
+terre_dispositif.classList.add("terre-dispositif-animation-active")
 }

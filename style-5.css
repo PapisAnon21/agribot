@@ -3,6 +3,7 @@
 .fleche
 {
     display: none;
+    
 }
 
 .fleche-1-1
@@ -247,7 +248,7 @@ color: rgb(48, 175, 224);
     }
     to
     {
-         left: 290px;
+         left: 300px;
         
     }
 }
@@ -260,7 +261,7 @@ color: rgb(48, 175, 224);
     }
     to
     {
-        left: 370px;
+        left: 360px;
     }
 }
 
@@ -274,7 +275,7 @@ color: rgb(48, 175, 224);
     }
     to
     {
-        left: 420px;
+        left: 430px;
     }
 }
 
@@ -282,7 +283,7 @@ color: rgb(48, 175, 224);
 {
     from
     {
-        left: 490px; ;
+        left: 480px; ;
     }
     to
     {
@@ -295,11 +296,11 @@ color: rgb(48, 175, 224);
 {
     from
     {
-        left: 580px; ;
+        left: 590px; ;
     }
     to
     {
-        left: 560px;
+        left: 570px;
     }
 }
 
