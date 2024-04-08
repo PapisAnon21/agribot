@@ -8,7 +8,7 @@ const tuyau_secondaire = document.querySelectorAll(".tuyau-secondaire")
 
 const terre_dispositif = document.querySelector(".terre-dispositif")
 const dispositif = document.querySelector(".dispositif")
-
+const sensors_humidity = document.querySelectorAll(".sensor-humidity")
 
 function display_terre_a_cote()
 {
@@ -96,4 +96,14 @@ terre_dispositif.classList.add("terre-dispositif-animation-active")
 function display_dispositif()
 {
     dispositif.classList.add("dispositif-animation-active")
+}
+
+
+function display_sensor_humidity()
+{
+    sensors_humidity.forEach(
+        (elt) => {
+            elt.classList.add("sensor-humidity-animation-active")
+        }
+    )
 }
