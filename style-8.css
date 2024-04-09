@@ -1,0 +1,57 @@
+.wifi-1 {
+  display: none;
+  position: absolute;
+  top: 484px;
+  left: 265px;
+  color: yellow;
+}
+
+.wifi-2 {
+  display: none;
+
+  position: absolute;
+  top: 484px;
+  left: 410px;
+  color: yellow;
+}
+
+.wifi-3 {
+  display: none;
+
+  position: absolute;
+  top: 484px;
+  left: 568px;
+  color: yellow;
+}
+
+.wifi-4 {
+  position: absolute;
+  display: none;
+  top: 500px;
+  left: 165px;
+  color: yellow;
+  transform: translateZ(550px) translateY(50px);
+}
+
+.wifi-5 {
+  position: absolute;
+  display: none;
+  top: 280px;
+  left: 140px;
+  color: yellow;
+  transform: translateZ(550px) translateY(50px);
+}
+
+.wifi-animation-active {
+  display: block;
+  animation: wifi-animation 1s infinite;
+}
+
+@keyframes wifi-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

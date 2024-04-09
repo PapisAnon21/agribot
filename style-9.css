@@ -1,0 +1,111 @@
+.camera-0 {
+  position: absolute;
+  display: none;
+  width: 50px;
+  height: 50px;
+  transform: translateY(380px) translateZ(650px) translateX(135px)
+    rotateY(60deg);
+}
+
+.camera-1 {
+  position: absolute;
+  display: none;
+  top: 400px;
+  left: 290px;
+  width: 20px;
+  height: 20px;
+  transform: translateZ(400px) translateY(10px);
+}
+
+.camera-2 {
+  position: absolute;
+  display: none;
+  top: 400px;
+  left: 410px;
+  width: 20px;
+  height: 20px;
+  transform: translateZ(400px) translateY(10px);
+}
+
+.camera-3 {
+  position: absolute;
+  display: none;
+  top: 400px;
+  left: 560px;
+  width: 20px;
+  height: 20px;
+  transform: translateZ(400px) translateY(10px);
+}
+
+.animation-camera-active {
+  display: block;
+  animation: animation-camera 5s infinite;
+}
+
+.animation-camera-x-active {
+  display: block;
+  animation: animation-camera-x 5s infinite;
+}
+
+@keyframes animation-camera-x {
+  0% {
+    transform: translateZ(400px) translateY(10px) rotateY(0deg);
+  }
+
+  10% {
+    transform: translateZ(400px) translateY(10px) rotateY(10deg);
+  }
+
+  20% {
+    transform: translateZ(400px) translateY(10px) rotateY(30deg);
+  }
+  30% {
+    transform: translateZ(400px) translateY(10px) rotateY(40deg);
+  }
+
+  40% {
+    transform: translateZ(400px) translateY(10px) rotateY(50deg);
+  }
+
+  50% {
+    transform: translateZ(400px) translateY(10px) rotateY(60deg);
+  }
+  100% {
+    transform: translateZ(400px) translateY(10px) rotateY(70deg);
+  }
+}
+
+@keyframes animation-camera {
+  0% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(0deg);
+  }
+
+  10% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(10deg);
+  }
+
+  20% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(20deg);
+  }
+  30% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(30deg);
+  }
+
+  40% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(40deg);
+  }
+
+  50% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(50deg);
+  }
+  100% {
+    transform: translateY(380px) translateZ(650px) translateX(135px)
+      rotateY(80deg);
+  }
+}

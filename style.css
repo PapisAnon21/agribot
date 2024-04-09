@@ -4,84 +4,64 @@
 @import url("./style-5.css");
 @import url("./style-6.css");
 @import url("./style-7.css");
-.main
-{
-    padding-top: 150px;
-    width: 900px;
-    height: 500px;
-    margin: 0 auto;
-    perspective: 4000px;
-   display: flex;
-    transform-style: preserve-3d;
-    
-   
+@import url("./style-8.css");
+@import url("./style-9.css");
+.main {
+  padding-top: 150px;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  perspective: 4000px;
+  display: flex;
+  transform-style: preserve-3d;
 }
 
-.terre
-{
-    
- padding-top: 200px;
-    background-color: #8A6D45;
-    width: 700px;
-    height: 800px;
-    margin: 12px auto;
-    border: 1px solid black;
-    transform: rotateX(70deg) translateZ(150px);
-    display: flex;
-    border: none;
-    border-radius: 12px;
-  
+.terre {
+  padding-top: 200px;
+  background-color: #8a6d45;
+  width: 700px;
+  height: 800px;
+  margin: 12px auto;
+  border: 1px solid black;
+  transform: rotateX(70deg) translateZ(150px);
+  display: flex;
+  border: none;
+  border-radius: 12px;
 }
-.a-cote-terre
-{
-    display: none;
-    width: 100px;
-    height: 800px;
-    background-color: #8A6D45;
-   
-
+.a-cote-terre {
+  display: none;
+  width: 100px;
+  height: 800px;
+  background-color: #8a6d45;
 }
-.a-cote-terre-animation
-{
-    display: block;
-    animation : a-cote-terre-animation-active 3s ease-in forwards;
-    
+.a-cote-terre-animation {
+  display: block;
+  animation: a-cote-terre-animation-active 3s ease-in forwards;
 }
 
-.terre img
-{
-    width: 200px;
-    height: 90px;
+.terre img {
+  width: 200px;
+  height: 90px;
 }
 
-.img-1
-{
-    padding: 0;
-    width: 150px;
-    height: 750px;
-    
+.img-1 {
+  padding: 0;
+  width: 150px;
+  height: 750px;
 }
 
-
-.les-buttons
-{
-    position: relative;
-    top: 150px;
+.les-buttons {
+  position: relative;
+  top: 150px;
 }
-
-
-
 
 /* je met les animations en bas */
 
-@keyframes a-cote-terre-animation-active
-{
-    from
-    {
-        transform: rotateX(70deg) translateZ(135px) translateX(10px);
-    }
-    to{
-        transform: rotateX(70deg) translateZ(136px) translateX(68px);
-    }
-
+@keyframes a-cote-terre-animation-active {
+  from {
+    transform: rotateX(70deg) translateZ(135px) translateX(10px);
+  }
+  to {
+    transform: rotateX(70deg) translateZ(136px) translateX(68px);
+  }
 }
