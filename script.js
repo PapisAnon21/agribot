@@ -133,3 +133,86 @@ function display_all_camera() {
     elt.classList.add("animation-camera-x-active");
   });
 }
+
+function display_farmer() {
+  document.querySelector(".farmer").style.display = "block";
+  document.querySelector(".phone").style.display = "block";
+  document.querySelector(".wifi-6").style.display = "block";
+  document.querySelector(".wifi-6").classList.add("wifi-animation-active");
+}
+
+function start_arrosage() {
+  document
+    .querySelector(".fleche-n-1-1")
+    .classList.add("arrosage-animation-active");
+
+  document
+    .querySelector(".fleche-n-2-1")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-2")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-3")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-4")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-5")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-6")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-7")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-8")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-9")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-2-10")
+    .classList.add("arrosage-animation-active");
+
+  document
+    .querySelector(".fleche-n-3-1")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-3-2")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-3-3")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-3-4")
+    .classList.add("arrosage-animation-active");
+
+  document
+    .querySelector(".fleche-n-4-1")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-4-2")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-4-3")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-4-4")
+    .classList.add("arrosage-animation-active");
+
+  document
+    .querySelector(".fleche-n-5-1")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-5-2")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-5-3")
+    .classList.add("arrosage-animation-active");
+  document
+    .querySelector(".fleche-n-5-4")
+    .classList.add("arrosage-animation-active");
+}

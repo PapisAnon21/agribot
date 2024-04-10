@@ -1,0 +1,180 @@
+.fleche-n-1-1 {
+  display: none;
+  position: absolute;
+  left: 125px;
+  top: 340px;
+}
+
+.fleche-n-2-1 {
+  display: none;
+  position: absolute;
+  left: 85px;
+  top: 380px;
+}
+
+.fleche-n-2-2 {
+  display: none;
+  position: absolute;
+  left: 150px;
+  top: 388px;
+}
+
+.fleche-n-2-3 {
+  display: none;
+  position: absolute;
+  left: 215px;
+  top: 380px;
+}
+
+.fleche-n-2-4 {
+  display: none;
+  position: absolute;
+  left: 280px;
+  top: 388px;
+}
+
+.fleche-n-2-5 {
+  display: none;
+  position: absolute;
+  left: 345px;
+  top: 380px;
+}
+.fleche-n-2-6 {
+  display: none;
+  position: absolute;
+  left: 410px;
+  top: 388px;
+}
+.fleche-n-2-7 {
+  display: none;
+  position: absolute;
+  left: 475px;
+  top: 380px;
+}
+
+.fleche-n-2-8 {
+  display: none;
+  position: absolute;
+  left: 540px;
+  top: 388px;
+}
+
+.fleche-n-2-9 {
+  display: none;
+  position: absolute;
+  left: 605px;
+  top: 380px;
+}
+.fleche-n-2-10 {
+  display: none;
+  position: absolute;
+  left: 670px;
+  top: 386px;
+}
+
+.fleche-n-3-1 {
+  display: none;
+  position: absolute;
+  left: 325px;
+  top: 400px;
+}
+
+.fleche-n-3-2 {
+  display: none;
+  position: absolute;
+  left: 325px;
+  top: 470px;
+  transform: translateZ(300px);
+}
+
+.fleche-n-3-3 {
+  display: none;
+  position: absolute;
+  left: 332px;
+  top: 540px;
+  transform: translateZ(500px);
+}
+
+.fleche-n-3-4 {
+  display: none;
+  position: absolute;
+  left: 325px;
+  top: 610px;
+  transform: translateZ(550px);
+}
+
+.fleche-n-4-1 {
+  display: none;
+  position: absolute;
+  left: 463px;
+  top: 400px;
+}
+
+.fleche-n-4-2 {
+  display: none;
+  position: absolute;
+  left: 463px;
+  top: 470px;
+  transform: translateZ(300px);
+}
+
+.fleche-n-4-3 {
+  display: none;
+  position: absolute;
+  left: 463px;
+  top: 540px;
+  transform: translateZ(500px);
+}
+
+.fleche-n-4-4 {
+  display: none;
+  position: absolute;
+  left: 463px;
+  top: 610px;
+  transform: translateZ(550px);
+}
+
+.fleche-n-5-1 {
+  display: none;
+  position: absolute;
+  left: 612px;
+  top: 400px;
+}
+
+.fleche-n-5-2 {
+  display: none;
+  position: absolute;
+  left: 608px;
+  top: 470px;
+  transform: translateZ(300px);
+}
+
+.fleche-n-5-3 {
+  display: none;
+  position: absolute;
+  left: 610px;
+  top: 540px;
+  transform: translateZ(500px);
+}
+
+.fleche-n-5-4 {
+  display: none;
+  position: absolute;
+  left: 612px;
+  top: 610px;
+  transform: translateZ(550px);
+}
+
+.arrosage-animation-active {
+  display: block;
+  animation: arrosage-animation 1s infinite;
+}
+
+@keyframes arrosage-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -3,8 +3,7 @@
   display: none;
   width: 50px;
   height: 50px;
-  transform: translateY(380px) translateZ(650px) translateX(135px)
-    rotateY(60deg);
+  transform: translateY(380px) translateZ(650px) translateX(135px);
 }
 
 .camera-1 {
@@ -39,7 +38,6 @@
 
 .animation-camera-active {
   display: block;
-  animation: animation-camera 5s infinite;
 }
 
 .animation-camera-x-active {

@@ -1,0 +1,22 @@
+.phone {
+  display: none;
+  position: absolute;
+  right: -100px;
+  width: 90px;
+  height: 200px;
+}
+.farmer {
+  display: none;
+  position: absolute;
+  top: 250px;
+  right: -185px;
+  width: 100px;
+  height: 100px;
+}
+
+.wifi-6 {
+  display: none;
+  position: absolute;
+  right: -10px;
+  top: 180px;
+}
